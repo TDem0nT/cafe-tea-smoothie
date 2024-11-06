@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 950px; /* Set width to 95% for better responsiveness */
+    height: 850px; /* Let the height adjust based on content */
+    background-color: #F0FFF0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.logo img {
+    width: 140px; /* Make the logo responsive */
+    max-width: 140px; /* Set max width for the logo */
+}
+
+header {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+
+.header-name-cafe {
+	font-size: 26px;    /* font-weight: bold; */
+	color: #006400;
+}
+
+h2 {
+    color: #228B22;
+}
+
+
+
+.cart-items {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin: 10px 0; /* Set vertical margins for the header */
+}
+
+#cartContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: flex-start; /* Align items to the start */
+    margin: -10px; /* Adjust margins to align items correctly */
+}
+
+.cart-item {
+    flex: 0 0 calc(33.33% - 20px); /* Each item takes up 1/3 of the container's width, minus margins */
+    margin: 10px; /* Space between items */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.cart-item-info {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.total-price {
+    font-size: 1.5rem;
+	font-weight: bold;
+    margin-top: 20px;
+    text-align: right;
+
+}
+
+.checkout-button {
+    width: 20%;
+    padding: 15px;
+    background-color: #3CB371;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 20px;
+	border: none;
+}
+
+.checkout-button:hover {
+	background-color: #008000;
+}
+
+.thank-you-popup.hidden {
+    display: none;
+}
+
+.thank-you-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000; /* Ensure it appears on top of other elements */
+}
+
+.thank-you-message {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90vw; /* Prevents overflow on very small screens */
+    max-height: 90vh;
+    overflow-y: auto;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-popup-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-item-controls {
+    button{
+        width: 40px;
+	    height: 40px;
+	    background-color: #ddd;
+	    place-items: center;
+        border: 0;
+	    border-radius: 100%;
+	    cursor: pointer;
+	    font-size: 1.5rem;
+	    color: #555;
+    }
+}
+
+.btn {
+	display: flex;
+	justify-content: end;
+}
+
+.btn .btn-back{
+	margin-right: 20px;
+}
+
+.btn-back {
+	text-decoration: none;
+	width: 80px;
+	height: 40px;
+	border-radius: 5px;
+	color: #222222;
+	font-weight: bold;
+	background-color: #DAA520;
+	display: grid;
+	place-items: center;
+	cursor: pointer;
+}
+
+.btn-home {
+	text-decoration: none;
+	width: 80px;
+	height: 40px;
+	border-radius: 5px;
+	color: #222222;
+	font-weight: bold;
+	background-color: #DAA520;
+	display: grid;
+	place-items: center;
+	cursor: pointer;
+}
+
+.btn a:hover {
+	background-color: #D2691E;
+}
+
+.close-popup-button:hover {
+    background-color: #006400;
+}
