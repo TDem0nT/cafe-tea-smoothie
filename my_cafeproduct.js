@@ -54,9 +54,9 @@ if (getkeywordtea == 'product1') {
 	addBasket.addEventListener('click', () => {
 		const cartItems = JSON.parse(sessionStorage.getItem('cartItems')) || [];
 		const item = {
-			name: arrteaname[0],   // Replace with dynamic product name
-			price: 50,             // Replace with dynamic price
-			image: arrteaimg[0],   // Replace with dynamic image
+			name: arrteaname[0],
+			price: 50,            
+			image: arrteaimg[0],
 			quantity: Quantity1
 		};
 	
@@ -106,9 +106,9 @@ else if (getkeywordtea == 'product2') {
 	addBasket.addEventListener('click', () => {
 		const cartItems = JSON.parse(sessionStorage.getItem('cartItems')) || [];
 		const item = {
-			name: arrteaname[1],   // Replace with dynamic product name
-			price: 45,             // Replace with dynamic price
-			image: arrteaimg[1],   // Replace with dynamic image
+			name: arrteaname[1],  
+			price: 45,             
+			image: arrteaimg[1],   
 			quantity: Quantity2
 		};
 	
@@ -158,9 +158,9 @@ else if (getkeywordtea == 'product3') {
 	addBasket.addEventListener('click', () => {
 		const cartItems = JSON.parse(sessionStorage.getItem('cartItems')) || [];
 		const item = {
-			name: arrteaname[2],   // Replace with dynamic product name
-			price: 55,             // Replace with dynamic price
-			image: arrteaimg[2],   // Replace with dynamic image
+			name: arrteaname[2],   
+			price: 55,             
+			image: arrteaimg[2],   
 			quantity: Quantity3
 		};
 	
@@ -209,9 +209,9 @@ else if (getkeywordsoda == 'product4') {
 	addBasket.addEventListener('click', () => {
 		const cartItems = JSON.parse(sessionStorage.getItem('cartItems')) || [];
 		const item = {
-			name: arrsodaname[0],   // Replace with dynamic product name
-			price: 16,             // Replace with dynamic price
-			image: arrsodaimg[0],   // Replace with dynamic image
+			name: arrsodaname[0],  
+			price: 16,             
+			image: arrsodaimg[0],  
 			quantity: Quantity4
 		};
 	
@@ -260,9 +260,9 @@ else if (getkeywordsoda == 'product5') {
 	addBasket.addEventListener('click', () => {
 		const cartItems = JSON.parse(sessionStorage.getItem('cartItems')) || [];
 		const item = {
-			name: arrsodaname[1],   // Replace with dynamic product name
-			price: 20,             // Replace with dynamic price
-			image: arrsodaimg[1],   // Replace with dynamic image
+			name: arrsodaname[1],   
+			price: 20,            
+			image: arrsodaimg[1],  
 			quantity: Quantity5
 		};
 	
@@ -311,9 +311,9 @@ else if (getkeywordsoda == 'product6') {
 	addBasket.addEventListener('click', () => {
 		const cartItems = JSON.parse(sessionStorage.getItem('cartItems')) || [];
 		const item = {
-			name: arrsodaname[2],   // Replace with dynamic product name
-			price: 15,             // Replace with dynamic price
-			image: arrsodaimg[2],   // Replace with dynamic image
+			name: arrsodaname[2],   
+			price: 15,             
+			image: arrsodaimg[2],   
 			quantity: Quantity6
 		};
 	
@@ -362,9 +362,9 @@ else if (getkeywordsmoothie == 'product7') {
 	addBasket.addEventListener('click', () => {
 		const cartItems = JSON.parse(sessionStorage.getItem('cartItems')) || [];
 		const item = {
-			name: arrsmoothiename[0],   // Replace with dynamic product name
-			price: 99,             // Replace with dynamic price
-			image: arrsmoothieimg[0],   // Replace with dynamic image
+			name: arrsmoothiename[0],   
+			price: 99,            
+			image: arrsmoothieimg[0],  
 			quantity: Quantity7
 		};
 	
@@ -414,9 +414,9 @@ else if (getkeywordsmoothie == 'product8') {
 	addBasket.addEventListener('click', () => {
 		const cartItems = JSON.parse(sessionStorage.getItem('cartItems')) || [];
 		const item = {
-			name: arrsmoothiename[1],   // Replace with dynamic product name
-			price: 65,             // Replace with dynamic price
-			image: arrsmoothieimg[1],   // Replace with dynamic image
+			name: arrsmoothiename[1],   
+			price: 65,             
+			image: arrsmoothieimg[1],   
 			quantity: Quantity8
 		};
 	
@@ -466,9 +466,9 @@ else if (getkeywordsmoothie == 'product9') {
 	addBasket.addEventListener('click', () => {
 		const cartItems = JSON.parse(sessionStorage.getItem('cartItems')) || [];
 		const item = {
-			name: arrsmoothiename[2],   // Replace with dynamic product name
-			price: 30,             // Replace with dynamic price
-			image: arrsmoothieimg[2],   // Replace with dynamic image
+			name: arrsmoothiename[2],  
+			price: 30,            
+			image: arrsmoothieimg[2],  
 			quantity: Quantity9
 		};
 	
